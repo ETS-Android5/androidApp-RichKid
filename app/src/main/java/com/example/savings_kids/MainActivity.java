@@ -82,8 +82,8 @@ public class MainActivity extends AppCompatActivity {
         two2.setOnClickListener(btn);
         three3.setOnClickListener(btn);
         four4.setOnClickListener(btn);
-        //barTests.setOnClickListener(btn);
         back.setOnClickListener(btn);
+        //barTests.setOnClickListener(btn);
         }
 
 
