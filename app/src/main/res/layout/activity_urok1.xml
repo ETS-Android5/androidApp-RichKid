@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".Urok1">
+
+        <TextView
+            android:id="@+id/Text1.1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Text1.1"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            app:layout_constraintStart_toStartOf="@id/guideline2"
+            app:layout_constraintTop_toBottomOf="@+id/guideline1" />
+
+        <TextView
+            android:id="@+id/Text1.2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Text1.2"
+            android:textColor="@color/black"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@id/guideline2"
+            app:layout_constraintTop_toBottomOf="@+id/guideline3"
+            />
+
+        <TextView
+            android:id="@+id/Text1.3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Text1.3"
+            android:textColor="@color/black"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@id/guideline2"
+            app:layout_constraintTop_toBottomOf="@+id/guideline4" />
+
+        <TextView
+            android:id="@+id/Text1.4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="@string/Text1.4"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:fontFamily="sans-serif-light"
+            app:layout_constraintEnd_toEndOf="@id/guideline5"
+            app:layout_constraintStart_toStartOf="@id/guideline2"
+            app:layout_constraintTop_toBottomOf="@+id/guideline4" />
+
+
+        <TextView
+            android:id="@+id/Text1.5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Text1.5"
+            android:layout_marginTop="13dp"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:fontFamily="sans-serif-light"
+            app:layout_constraintEnd_toEndOf="@id/guideline5"
+            app:layout_constraintStart_toStartOf="@id/guideline2"
+            app:layout_constraintTop_toBottomOf="@+id/Text1.4" />
+
+        <ImageView
+            android:id="@+id/Photo1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:contentDescription="@string/todo"
+            android:scaleType="centerInside"
+            app:layout_constraintEnd_toEndOf="@id/guideline5"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@id/guideline2"
+            app:layout_constraintTop_toBottomOf="@+id/Text1.5"
+            app:srcCompat="@drawable/btn_slovar_01_01" />
+
+        <TextView
+            android:id="@+id/Text1.6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Text1.6"
+            android:layout_marginTop="6dp"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:fontFamily="sans-serif-light"
+            app:layout_constraintEnd_toEndOf="@id/guideline5"
+            app:layout_constraintStart_toStartOf="@id/guideline2"
+            app:layout_constraintTop_toBottomOf="@+id/Photo1" />
+
+        <TextView
+            android:id="@+id/Text1.7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Text1.7"
+            android:layout_marginTop="18dp"
+            android:textColor="@color/black"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@id/guideline5"
+            app:layout_constraintStart_toStartOf="@id/guideline2"
+            app:layout_constraintTop_toBottomOf="@+id/Text1.6" />
+
+        <TextView
+            android:id="@+id/Text1.8"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Text1.8"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:fontFamily="sans-serif-light"
+            app:layout_constraintEnd_toEndOf="@id/guideline5"
+            app:layout_constraintStart_toStartOf="@id/guideline2"
+            app:layout_constraintTop_toBottomOf="@+id/Text1.7" />
+
+        <ImageView
+            android:id="@+id/Photo2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/todo"
+            android:scaleType="centerInside"
+            android:layout_marginTop="13dp"
+            app:layout_constraintEnd_toEndOf="@id/guideline5"
+            app:layout_constraintStart_toStartOf="@id/guideline2"
+            app:layout_constraintTop_toBottomOf="@+id/Text1.8"
+            app:srcCompat="@drawable/btn_slovar_01_01" />
+
+        <TextView
+        android:id="@+id/Text1.9"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/Text1.9"
+        android:layout_marginTop="6dp"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:fontFamily="sans-serif-light"
+        app:layout_constraintEnd_toEndOf="@id/guideline5"
+        app:layout_constraintStart_toStartOf="@id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/Photo2" />
+
+        <TextView
+            android:id="@+id/Text1.10"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Text1.10"
+            android:layout_marginTop="6dp"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:fontFamily="sans-serif-light"
+            app:layout_constraintEnd_toEndOf="@id/guideline5"
+            app:layout_constraintStart_toStartOf="@id/guideline2"
+            app:layout_constraintTop_toBottomOf="@+id/Text1.9" />
+
+        <ImageView
+            android:id="@+id/Photo3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/todo"
+            android:scaleType="centerInside"
+            android:layout_marginTop="13dp"
+            app:layout_constraintEnd_toEndOf="@id/guideline5"
+            app:layout_constraintStart_toStartOf="@id/guideline2"
+            app:layout_constraintTop_toBottomOf="@+id/Text1.10"
+            app:srcCompat="@drawable/btn_slovar_01_01" />
+
+        <TextView
+            android:id="@+id/Text1.11"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Text1.11"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            app:layout_constraintEnd_toEndOf="@id/guideline5"
+            app:layout_constraintStart_toStartOf="@id/guideline2"
+            app:layout_constraintTop_toBottomOf="@+id/Photo3" />
+
+        <TextView
+            android:id="@+id/Text1.12"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Text1.12"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            app:layout_constraintEnd_toEndOf="@id/guideline5"
+            app:layout_constraintStart_toStartOf="@id/guideline2"
+            app:layout_constraintTop_toBottomOf="@+id/Text1.11" />
+
+        <ImageView
+            android:id="@+id/Photo4"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:contentDescription="@string/todo"
+            android:scaleType="centerInside"
+            android:layout_marginTop="13dp"
+            app:layout_constraintDimensionRatio="2:0.8"
+            app:layout_constraintEnd_toEndOf="@id/guideline5"
+            app:layout_constraintStart_toStartOf="@id/guideline2"
+            app:layout_constraintTop_toBottomOf="@+id/Text1.12"
+            app:srcCompat="@drawable/btn_slovar_01_01" />
+
+        <ImageView
+            android:id="@+id/Photo_1_05"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="12dp"
+            android:contentDescription="@string/todo"
+            android:scaleType="centerInside"
+            app:layout_constraintDimensionRatio="2:0.55"
+            app:layout_constraintEnd_toEndOf="@id/guideline5"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@id/guideline2"
+            app:layout_constraintTop_toBottomOf="@+id/Photo4"
+            app:srcCompat="@drawable/btn_slovar_01_01" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            app:layout_constraintTop_toBottomOf="@+id/Photo_1_05"></LinearLayout>
+
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.02" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.07" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.035" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.067" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.93" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline6_photo1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.9" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

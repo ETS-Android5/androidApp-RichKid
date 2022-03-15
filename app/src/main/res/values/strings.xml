@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">Savings_kids+</string>
+    <string name="selectedLanguage">English</string>
+    <string name="back">Назад</string>
+    <string name="level">ПРОВЕРИМСЯ: ТЕСТ </string>
+    <string name="level1">ПРОВЕРИМСЯ: ТЕСТ 1</string>
+    <string name="score">Правильных ответов: </string>
+
+    <string name="question1">Согласно Роберту Кийосаки одним из важнейших уроков в его жизни было как раз таки научиться понимать различия между Активом и Пассивом. Даже если сейчас для вас это звучит заумно, вообще-то все довольно просто: Активы это какие-либо ресурсы, приносящие прибыль в ваш карман, пассивы – наоборот съедающие.  </string>
+    <string name="slovar1">When a person consciously or intuitively chooses a goal in life, a life task, he involuntarily gives himself an assessment. By what a person lives for, you can also judge his self-esteem-low or high.
+
+If a person lives to bring good to people, to ease their suffering, to give people joy, then he evaluates himself at the level of this humanity. He sets himself a goal worthy of a human being.</string>
+    <string name="l1">1. Почему  нельзя напечатать много денег</string>
+    <string name="Text1.1">Lesson 1  \n</string>
+    <string name="Text1.2">Why we can not print \na lot of money  \n</string>
+    <string name="Text1.3">To you this, to me that \n</string>
+    <string name="Text1.4">A long time ago, money did not exist. There were people who lived by themselves: they hunted themselves and picked mushrooms and berries. Time passed, agriculture and handicrafts were formed, humanity evolved and began to gather into the first organized societies – life became easier and safer.
+\nThat is how it all started.\n
+</string>
+    <string name="Text1.5">It turned out that each member of the community was good at one thing: some sewed clothes better than others, others made weapons, and others molded pottery. In order to improve their quality of life, there was nothing left but to exchange. So  a barter exchange appeared. People began to exchange everything for everything.\n</string>
+    <string name="Text1.6"> A cow for pottery, 2 bags of rice for a knife, furs for salt - the exchange often turned out to be unequal for each of the parties. There was only one way out – to come up with one, universally recognized thing that would be long-lived and valuable in all corners of the globe. And eventually it was found.
+\nEverybody called it gold. \n
+</string>
+    <string name="Text1.7">Bullion, robberies and banknotes \n</string>
+    <string name="Text1.8">Bullions of gold was not this much convinient so, people began to make small coins. And to make the exchange even more convenient, coins were made of different "values" – for example, one coins with one value can "buy" 1 bag of rice, and other coins with other value can "buy" 5 bags of rice . The value of these coins is called their nominal value. It is obvious that, for 10 rubles you can buy more than for 7. When seller needed smaller money, the coins were simply cut into 4 equal parts. That is where their name came from - chopped money (rublenye money) or rubles. \n</string>
+    <string name="Text1.9">One of the most important factors of life at that time was security. It was necessary to protect not only yourself, but also your money from unforeseen kidnappings and raids. The most trusted place turned out to be a jewelers shop. For every coin left, the jewelry house give a cash voucher, according to which it was possible to get back their savings. So, the first paper money are just notes on paper. \n</string>
+    <string name="Text1.10">Over time, jewelers realized that they could charge a fee in the form of interest for their savings storage services.\n</string>
+    <string name="Text1.11">That is how the first banks appeared.\n</string>
+    <string name="Text1.12">Click here to find out what taxes are and what they are eaten with.\n</string>
+
+
+    <string name="Text2.1">Lesson 2  \n</string>
+    <string name="Text2.2">This is a ”scary" word taxes \n</string>
+    <string name="Text2.3">Free education, kerosene lamps and the Tax Code \n</string>
+    <string name="Text2.4">It is  been 12 years since Alexs first birthday. Adult life seems to be so far and for sure rich: "Go to university” ➜ "Find a high-paying job" ➜ “Buy an apartment" ➜ “Pay taxes all the time”
+\n \nWait, what??!
+ \n</string>
+    <string name="Text2.5">When it comes to finance, we often forget to mention the main "eater” of our money savings. It calls taxes.
+Each of us lives in a particular country, which obligates itself to create laws, ensure our safety, build new schools and hospitals, take care of creating new convenient roads and power lines. And all of this can't be free. Thats why, the citizens of each country must give part of their income –  to pay taxes.
+  \n</string>
+    <string name="Text2.6">Once upon a time, when only coachmen on carts drove along the roads, and women wore dresses with corsets, average people lived in not the best conditions: instead of electricity were kerosene lamps which lit up at night and water was taken from wells. This kind of innovations requires pile of money. The only ones who could help were the government or rich people . So, it was necessary to take taxes from people in order to fill the Department of theTreasury \n</string>
+    <string name="Text2.7">In the modern world, to find out where and what taxes you need to pay, it is enough to open the Tax Code. This code is different in each country. But the name is the same. \n</string>
+    <string name="Text2.8">For example, one of the most “famous” taxes is the income tax.
+This type of tax is paid from basic income, such as moms or dads salary. How does this works?
+It is  simple: a citizen must give a certain percentage of his earnings to the state. For example, in the Russian Federation it is 13%, in Ukraine - 18%, and in the UK it can reach 45%. In order to avoid confusion about what and where to pay, there is a rule  according to which an employer can pay income tax for a worker. He will simply give out wages without the part of money which goes for taxes.
+ \n</string>
+    <string name="Text2.9">“And now, as a small quest, ask your family what income tax they pay and what percentege it is. This will help you get used to the tax in your country and calculate your real earnings (even future ones)”\n</string>
+    <string name="Text2.10">Progressive tax or why the rich cry too \n</string>
+    <string name="Text2.11">We did not mention the UK for nothing. The tax can be also progressive. Only from the outside this word scares! In fact, it means the higher the income, the higher the tax rate.
+For example: John receives 30 thousand of some money a month, and Veronica 65 thousand. Veronika earns much more than John. It means that Veronika must pay a larger percentage of the taxes then John.
+So John will pay 20% of his salary, and Veronica, for example, 30%.
+ \n</string>
+    <string name="Text2.12">Why do you think such a tax was created?\n \n
+Lets try to answer it: if the tax was the same for everyone (by the way, such a tax is called linear), it would not be difficult for people with a large income to pay it, while people with low wages would have almost nothing left after paying off the debt to the government. With progressive taxation, the rich and the poor are at least a little, but  equalized.
+\n \nIn addition to income tax, there is also a tax on real estate (your house or cottage), on land or on vehicles (yes, for each car).
+
+\n \n"Yeah," Alex scratched behind his ear, "I'll have to rewrite my savings plan again and take into account all taxes."
+\n</string>
+    <string name="Text2.13">Click here to find out how to save up for a laptop using an Excel spreadsheet. \n</string>
+
+
+    <string name="Text3.1"> Lesson 3\n</string>
+    <string name="Text3.2"> Budgeting or how to save up for a laptop\n</string>
+    <string name="Text3.3"> The magic of mathematics, emotional shopping and a ban on chips\n</string>
+    <string name="Text3.4"> The word "budgeting” not the nicest word in the world: it's hard to pronounce and more like a banking term for people in suits.
+But with the help of this term you will be able to save up for your own brand-new laptop (maybe even this year).
+Если простыми словами, то бюджетирование происходит от слова бюджет, то есть план ваших доходов и расходов на какой-то определенный период. Хм, уже запутались? Попробуем по-другому.
+\n</string>
+    <string name="Text3.5"> Давайте представим, что каждый месяц родители выдают вам карманные деньги в размере 1000 рублей. Это и назовем вашим доходом. При этом в месяц на мороженое и газировку уходит 800 рублей. Плюс ко всему проезды на автобусе, парочка жвачек и конфет – без мелочи вся 1000. Это и будут ваши расходы. Не имея семи пядей во лбу предсказываем – долго так тянуться не сможет и о ноутбуке придётся забыть. Ну и помним о непредвиденной поездке в бабушке, поэтому тратить все под ноль нельзя. Именно поэтому придумали такую вещь как бюджетирование – составление финансового плана на какое-то время (пусть будет месяц или год) для более простого контроля над своими деньгами.\n</string>
+    <string name="Text3.6"> 1. С чего же начать?\n\n
+А начинать нужно с правильно поставленной цели. В нашем случае выбор пал на новенький ноутбук. Прежде чем решать важные задачи, возьмите листик и ручку и ответьте себе на вопросы:
+\n\n•	Ноутбук нужен для учебных или игровых целей? Ни для кого не секрет, что ноутбуки для игрушек должны иметь ряд высоких технических требований, таких как отличная графическая карта, к примеру. А чем дороже покупка, тем дольше придется копить.
+\n•	Мне достаточно б/у варианта или хочу новенький?
+\n•	Сможет ли этот предмет помочь мне зарабатывать в будущем? Ведь если это “очередная игрушка”, уж лучше вложить деньги в графический планшет или попросить родителей открыть собственный банковский вклад (а вот об этом чуть-чуть попозже)
+\n</string>
+    <string name="Text3.7"> 2. Когда цель выбрана нужно бы заняться бюджетированием.\n\n
+В программе Excel или по проверенному на карточке расчертите поля доходов, расходов, непредвиденных обстоятельств и накоплений. Снизу проставьте даты (например, месяцы). Зная себя, вы сможете проставить примерные цифры в каждой колонке. Далее при помощи небольшой магии и простых математических формул выведите сумму накопления как доходы минус расходы минус непредвиденные обстоятельства. Кстати на них рекомендуем откладывать около 5% от своих доходов.
+\n</string>
+    <string name="Text3.8"> Рассчитать срок накопления.\n\nИмея готовую цифру с колонки накоплений за месяц, останется только разделить сумму за ноутбук на наши накопления:
+\n</string>
+    <string name="Text3.9"> 8800 (цена ноутбука) / 400 (накопления за месяц) = 22 месяца (собирать на ноутбук)\n</string>
+    <string name="Text3.10"> М-да не быстро. Значит, чтобы накопить быстрее придется или больше экономить или больше зарабатывать. С экономией все понятно, а вот с заработком тяжелее. Подкинем пару идей заработка для подростка:
+\n</string>
+    <string name="Text3.11"> 3. Гордиться собой!\n</string>
+    <string name="Text3.12"> И остался последний пункт – похвалить себя за проделанную работу. Сегодня, вы молодчина!\nМожет кому-то эти советы и кажутся слишком простыми и очевидными. Что ж, поверьте, даже взрослые иногда не в силах придержаться этих правил. А вам слабо?\n</string>
+    <string name="Text3.13"> Кликнем здесь, чтобы узнать, почему банк это хорошо и почему плохо?\n</string>
+
+
+    <string name="Text4.1"> Урок 4\n</string>
+    <string name="Text4.2"> Почему банк это хорошо и почему плохо?\n</string>
+    <string name="Text4.3"> Высокие проценты, ненужные прихоти и вкусные кексики\n</string>
+    <string name="Text4.4"> О банке слышал, наверное, каждый человек на земном шаре. Там мы отдаём свои сбережения на хранение, берём кредит под проценты или оформляем карты. Банковская система только кажется тяжёлой и непонятной. На самом же деле в основном банки были придуманы для 2-ух вещей:\n\n
+•	Одни люди, у которых были свободные деньги, отдавали их в банк под проценты. Таким образом, вложенные деньги зарабатывали владельцу еще больше денег. Такая операция называется банковским вкладом.\n
+•	Но чтобы банку было откуда брать денежки и добавлять к вашим сбережениям, он должен был их зарабатывать. Это решалось с помощью кредитов под проценты, которые банк выдавал другим людям.
+\n</string>
+    <string name="Text4.5"> Каждый из рассмотренных случаев имеет свои плюсы или минусы.\n</string>
+    <string name="Text4.6"> Кредит\n</string>
+    <string name="Text4.61"> Банковский вклад\n</string>
+    <string name="Text4.7"> В случае же банковского вклада всё происходит точно также, только наоборот.\n</string>
+    <string name="Text4.8"> Ну не здорово ли понимать как устроена финансовая система?!\n</string>
+    <string name="Text4.9"> Кликнем здесь, чтобы узнать, что такое инвестиции и как деньги сделают вам деньги.\n</string>
+
+
+
+    <string name="todo">TODO</string>
+</resources>

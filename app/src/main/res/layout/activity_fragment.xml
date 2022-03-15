@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragment">
+
+
+
+    <ImageView
+        android:id="@+id/fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/fragment_back"></ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="32dp"
+        android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="290dp"
+        android:gravity="center"></LinearLayout>
+
+    <TextView
+        android:id="@+id/textQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/question1"
+        android:textColor="@color/gray"
+        android:textSize="15dp"
+        android:layout_weight="30"
+        android:textStyle="bold"></TextView>
+
+    <Button
+        android:id="@+id/btnNextTest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textQuestion"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_background"
+        android:text="А этот тест пройдешь? ➟"
+        android:textColor="@color/gray" >
+
+    </Button>
+
+ </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/test_back" />
+
+    <LinearLayout
+        android:id="@+id/container1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="42dp">
+
+        <LinearLayout
+            android:id="@+id/container2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="32dp"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:id="@+id/line1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button_back"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_stroke_white_press_orange"
+                    android:text="@string/back"
+                    android:textColor="@color/gray"
+                    android:textAllCaps="false"
+                    android:textSize="14dp"
+                    />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/text_levels"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Проверимся: тест "
+                android:textAllCaps="true"
+                android:textColor="@color/orange"
+                android:textSize="15dp" />
+
+
+            <TextView
+                android:id="@+id/tvQuestionNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Вопрос 1/n"
+                android:textStyle="bold"
+                android:textColor="@color/gray"
+                android:textSize="13dp" />
+
+
+            <LinearLayout
+                android:id="@+id/line2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:id="@+id/textScore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Правильных ответов: " />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textQuestion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textColor="@color/gray"
+                android:textSize="13dp"
+                android:text="@string/question1" />
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                >
+
+                <RadioButton
+                    android:id="@+id/rb1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Option_1"
+                    android:theme="@style/RadioButtonStyle"
+                    android:textSize="13dp"
+                    android:button="@drawable/custom_radiobutton"></RadioButton>
+                <RadioButton
+                    android:id="@+id/rb2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Option_1"
+                    android:button="@drawable/custom_radiobutton"
+                    android:theme="@style/RadioButtonStyle"
+                    android:textSize="13dp"></RadioButton>
+                <RadioButton
+                    android:id="@+id/rb3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Option_1"
+                    android:button="@drawable/custom_radiobutton"
+                    android:theme="@style/RadioButtonStyle"
+                    android:textSize="13dp"></RadioButton>
+            </RadioGroup>
+            <Button
+                android:id="@+id/btnNext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Следующий вопрос"
+                android:textColor="@color/gray"
+                android:background="@drawable/button_background"
+                />
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
