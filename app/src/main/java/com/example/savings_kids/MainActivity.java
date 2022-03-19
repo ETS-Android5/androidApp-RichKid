@@ -39,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
         ImageButton four4 = findViewById(R.id.four4);
 
         ImageButton back = findViewById(R.id.back);
+        ImageButton test = findViewById(R.id.test);
 
 
         View.OnClickListener btn = new View.OnClickListener() {
@@ -70,11 +71,11 @@ public class MainActivity extends AppCompatActivity {
                         startActivity(in);
                         finish();
                         break;
-                    /*case R.id.tests:
+                    case R.id.test:
                         Intent t = new Intent(MainActivity.this, Test.class);
                         startActivity(t);
                         finish();
-                        break;*/
+                        break;
                 }
             }
         };
@@ -83,12 +84,6 @@ public class MainActivity extends AppCompatActivity {
         three3.setOnClickListener(btn);
         four4.setOnClickListener(btn);
         back.setOnClickListener(btn);
-        //barTests.setOnClickListener(btn);
+        test.setOnClickListener(btn);
         }
-
-
-
-
-
-
 }
