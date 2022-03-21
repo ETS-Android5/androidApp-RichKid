@@ -15,6 +15,6 @@
     </style>
 
     <style name = "RadioButtonStyle" parent="Theme.MaterialComponents.DayNight">
-        <item name="colorAccent">@color/orange</item>
+        <item name="colorAccent">@color/gray</item>
     </style>
 </resources>

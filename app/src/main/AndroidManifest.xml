@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Savings_kids">
-        <activity android:name=".Urok4"></activity>
+        <activity android:name=".proba"></activity>
+        <activity android:name=".Urok4" />
         <activity android:name=".Urok3" />
         <activity android:name=".Urok2" />
         <activity android:name=".Urok1" />

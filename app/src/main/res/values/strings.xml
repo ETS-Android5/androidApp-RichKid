@@ -3,7 +3,7 @@
     <string name="selectedLanguage">English</string>
     <string name="back">Назад</string>
     <string name="level">ПРОВЕРИМСЯ: ТЕСТ </string>
-    <string name="level1">ПРОВЕРИМСЯ: ТЕСТ 1</string>
+    <string name="level1">TEST 1</string>
     <string name="score">Правильных ответов: </string>
 
     <string name="question1">Согласно Роберту Кийосаки одним из важнейших уроков в его жизни было как раз таки научиться понимать различия между Активом и Пассивом. Даже если сейчас для вас это звучит заумно, вообще-то все довольно просто: Активы это какие-либо ресурсы, приносящие прибыль в ваш карман, пассивы – наоборот съедающие.  </string>
@@ -99,7 +99,6 @@ But with the help of this term you will be able to save up for your own brand-ne
     <string name="Text4.7"> В случае же банковского вклада всё происходит точно также, только наоборот.\n</string>
     <string name="Text4.8"> Ну не здорово ли понимать как устроена финансовая система?!\n</string>
     <string name="Text4.9"> Кликнем здесь, чтобы узнать, что такое инвестиции и как деньги сделают вам деньги.\n</string>
-
 
 
     <string name="todo">TODO</string>
