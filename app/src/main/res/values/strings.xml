@@ -66,26 +66,26 @@ Lets try to answer it: if the tax was the same for everyone (by the way, such a 
     <string name="Text3.3"> The magic of mathematics, emotional shopping and a ban on chips\n</string>
     <string name="Text3.4"> The word "budgeting” not the nicest word in the world: it's hard to pronounce and more like a banking term for people in suits.
 But with the help of this term you will be able to save up for your own brand-new laptop (maybe even this year).
-Если простыми словами, то бюджетирование происходит от слова бюджет, то есть план ваших доходов и расходов на какой-то определенный период. Хм, уже запутались? Попробуем по-другому.
+In simple words, budgeting comes from the word budget, that is, the plan of your income and expenses for a certain period. Hmm, already confused? Let's try another way.
 \n</string>
-    <string name="Text3.5"> Давайте представим, что каждый месяц родители выдают вам карманные деньги в размере 1000 рублей. Это и назовем вашим доходом. При этом в месяц на мороженое и газировку уходит 800 рублей. Плюс ко всему проезды на автобусе, парочка жвачек и конфет – без мелочи вся 1000. Это и будут ваши расходы. Не имея семи пядей во лбу предсказываем – долго так тянуться не сможет и о ноутбуке придётся забыть. Ну и помним о непредвиденной поездке в бабушке, поэтому тратить все под ноль нельзя. Именно поэтому придумали такую вещь как бюджетирование – составление финансового плана на какое-то время (пусть будет месяц или год) для более простого контроля над своими деньгами.\n</string>
-    <string name="Text3.6"> 1. С чего же начать?\n\n
-А начинать нужно с правильно поставленной цели. В нашем случае выбор пал на новенький ноутбук. Прежде чем решать важные задачи, возьмите листик и ручку и ответьте себе на вопросы:
-\n\n•	Ноутбук нужен для учебных или игровых целей? Ни для кого не секрет, что ноутбуки для игрушек должны иметь ряд высоких технических требований, таких как отличная графическая карта, к примеру. А чем дороже покупка, тем дольше придется копить.
-\n•	Мне достаточно б/у варианта или хочу новенький?
-\n•	Сможет ли этот предмет помочь мне зарабатывать в будущем? Ведь если это “очередная игрушка”, уж лучше вложить деньги в графический планшет или попросить родителей открыть собственный банковский вклад (а вот об этом чуть-чуть попозже)
+    <string name="Text3.5"> Lets imagine that every month your parents give you pocket money in the amount of 1000 rubles. This is what we will call your income. At the same time, 800 rubles are spent on ice cream and soda per month. Plus bus rides, a couple of chewing gum and sweets – without change, the whole 1000 will come out.  And an unexpected trip to your grandmother or best friend? In general, you need to save a lot of money or you can say goodbye to your laptop. That is why they came up with such a thing as budgeting – drawing up a financial plan for a short time (let it be a month or a year) for easier control over their money.\n</string>
+    <string name="Text3.6"> 1. Where to start?\n\n
+And we need to start with a properly set goal. In our case, as far as we remember, the choice fell on a brand new laptop. Before solving important tasks, lets take a sheet of paper and a pen and answer a couple of questions for ourselves:
+\n\n• Do you need a laptop for educational or gaming purposes? Its no secret that laptops for toys should have higher technical requirements, such as an excellent graphics card or a convenient gaming mouse, for example. And the more expensive the purchase, the longer it will take to save.
+\n• Do I have enough second-hand options or do I want a brand new one?
+\n• Can this subject help me earn money in the future? After all, if this is "another toy", it's better to invest money in a graphics tablet or ask parents to open their own bank deposit (read about this in the next lesson)
 \n</string>
-    <string name="Text3.7"> 2. Когда цель выбрана нужно бы заняться бюджетированием.\n\n
-В программе Excel или по проверенному на карточке расчертите поля доходов, расходов, непредвиденных обстоятельств и накоплений. Снизу проставьте даты (например, месяцы). Зная себя, вы сможете проставить примерные цифры в каждой колонке. Далее при помощи небольшой магии и простых математических формул выведите сумму накопления как доходы минус расходы минус непредвиденные обстоятельства. Кстати на них рекомендуем откладывать около 5% от своих доходов.
+    <string name="Text3.7"> 2. When the goal is selected, you must do budgeting.\n\n
+On your old computer, we will find the Excel program  and draw the field of income, expenses, unforeseen circumstances and savings as shown below in the picture. At the bottom, put down the dates (for example, months or years if you want). Knowing yourself, you will be able to put down approximate numbers in each column. Next, with the help of a little magic and simple mathematical formulas, we will deduce the amount of accumulation (how much we can accumulate in a month) as income minus expenses minus unforeseen circumstances. By the way, we recommend saving about 5% of your income for unforeseen circumstances.
 \n</string>
-    <string name="Text3.8"> Рассчитать срок накопления.\n\nИмея готовую цифру с колонки накоплений за месяц, останется только разделить сумму за ноутбук на наши накопления:
+    <string name="Text3.8"> 2.1 We calculate the accumulation period.\n\nHaving a ready-made number from the savings column for the month, it remains only to divide the amount for the laptop into our savings:
 \n</string>
-    <string name="Text3.9"> 8800 (цена ноутбука) / 400 (накопления за месяц) = 22 месяца (собирать на ноутбук)\n</string>
-    <string name="Text3.10"> М-да не быстро. Значит, чтобы накопить быстрее придется или больше экономить или больше зарабатывать. С экономией все понятно, а вот с заработком тяжелее. Подкинем пару идей заработка для подростка:
+    <string name="Text3.9"> 8800 (laptop price) / 400 (month accumulatinon) = 22 month\n</string>
+    <string name="Text3.10"> Well, not so fast. So, in order to save faster, you will either have to save more or earn more. With savings, everything is clear, but with earnings it is harder. That is why we tried and gave you a couple of little ideas for earning money for a teenager:
 \n</string>
-    <string name="Text3.11"> 3. Гордиться собой!\n</string>
-    <string name="Text3.12"> И остался последний пункт – похвалить себя за проделанную работу. Сегодня, вы молодчина!\nМожет кому-то эти советы и кажутся слишком простыми и очевидными. Что ж, поверьте, даже взрослые иногда не в силах придержаться этих правил. А вам слабо?\n</string>
-    <string name="Text3.13"> Кликнем здесь, чтобы узнать, почему банк это хорошо и почему плохо?\n</string>
+    <string name="Text3.11"> 3. Be proud of yourself\n</string>
+    <string name="Text3.12"> And the last point remained – to glorify yourself for the work done!\nMaybe to someone these tips seem too simple and obvious. Well, believe me, even adults are sometimes unable to follow these rules. Can you accept challenge?\n</string>
+    <string name="Text3.13"> Click here to find out why the bank is good and why is it bad?\n</string>
 
 
     <string name="Text4.1"> Урок 4\n</string>

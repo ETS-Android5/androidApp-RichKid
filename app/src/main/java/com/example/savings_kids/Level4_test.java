@@ -37,12 +37,9 @@ public class  Level4_test extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.universal_test);
 
-
         //TEXT
         TextView text_levels = findViewById(R.id.text_levels);
         text_levels.setText((R.string.level4));
-
-
 
         //INIT OF ELEMENTS
         questionList = new ArrayList<>();
@@ -88,7 +85,6 @@ public class  Level4_test extends AppCompatActivity {
                 }
             }
         });
-
     }
 
     //METHOD CHECKANSWER
