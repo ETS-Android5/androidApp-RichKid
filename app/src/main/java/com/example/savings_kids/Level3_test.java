@@ -1,69 +1,60 @@
 package com.example.savings_kids;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.content.res.ColorStateList;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import java.util.ArrayList;
 import java.util.List;
 
-public class Level3_test extends AppCompatActivity {
-    public int count = 0;
-    public int btn1; //numLeft // переменная для картинки первой кнопки + текст
-    public int btn2;
-    public int btn3;
-    public int vopros; //вместо numleft
+//FIELDS
+public class  Level3_test extends AppCompatActivity {
+    public int count =0;
     Array array = new Array();
-    private TextView tvQuestion, tvQuestionNo, tvScore; //+tvScore, tvTimer
+    private TextView textQuestion, tvQuestionNo, tvScore;
     private RadioGroup radioGroup;
     private RadioButton rb1, rb2, rb3;
     private Button btnNext;
-
     int totalQuestions;
     int qCounter = 0;
-
     int score;
-
     ColorStateList dfRbColor;
     boolean answered;
-
     private QuestionModel currentQuestion;
-
     private List<QuestionModel> questionList;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.universal);
+        setContentView(R.layout.universal_test);
 
 
-        //ЧТО ОТОБРАЖАТЬСЯ БУДЕТ В УРОВНЕ
+        //TEXT
         TextView text_levels = findViewById(R.id.text_levels);
-        text_levels.setText((R.string.level1));
+        text_levels.setText((R.string.level3));
 
 
-        //ТУТ ОГРОМНАЯ ВСТАВКА НАЧАЛО//
+
+        //INIT OF ELEMENTS
         questionList = new ArrayList<>();
-        tvQuestion = findViewById((R.id.textQuestion));
-        tvScore = findViewById(R.id.textScore);
-        radioGroup = findViewById((R.id.radioGroup));
-        rb1 = findViewById((R.id.rb1));
-        rb2 = findViewById((R.id.rb2));
-        rb3 = findViewById((R.id.rb3));
-        btnNext = findViewById(R.id.btnNext);
-        tvQuestionNo = findViewById(R.id.tvQuestionNo);
+        textQuestion = findViewById( (R.id.textQuestion));  //+
+        tvScore = findViewById(R.id.textScore);  //+
+        radioGroup = findViewById( (R.id.radioGroup));  //+
+        rb1 = findViewById( (R.id.rb1));  //+
+        rb2 = findViewById( (R.id.rb2));  //+
+        rb3 = findViewById( (R.id.rb3));  //+
+        btnNext = findViewById(R.id.btnNext);   //+
+        tvQuestionNo = findViewById(R.id.tvQuestionNo);  //+
         dfRbColor = rb1.getTextColors();
-
         addQuestion();
         totalQuestions = questionList.size();
         showNextQuestion();
@@ -71,91 +62,98 @@ public class Level3_test extends AppCompatActivity {
         btnNext.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (answered == false) {
-                    if (rb1.isChecked() || rb2.isChecked() || rb3.isChecked()) {
+                if (answered == false){
+                    if (rb1.isChecked() || rb2.isChecked() || rb3.isChecked()){
                         checkAnswer();
-                    } else {
-                        Toast.makeText(Level3_test.this, "Выберите опцию", Toast.LENGTH_SHORT).show();
+                    }else{
+                        Toast.makeText(Level3_test.this, "Choose an option", Toast.LENGTH_SHORT).show();
                     }
-                } else {
+                }else{
                     showNextQuestion();
                 }
             }
         });
-        //ТУТ ОГРОМНАЯ ВСТАВКА КОНЕЦ//
 
 
-        //кнопка назад начало
-        Button btn_back = (Button) findViewById(R.id.button_back);
+        //BUTTON BACK
+        ImageButton btn_back = (ImageButton) findViewById(R.id.back);
         btn_back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //Обрабатываем нажатие кнопки "Назад" начало
-                try {
-                    Intent intent = new Intent(Level3_test.this, Test.class);
+                try{
+                    Intent intent = new Intent (Level3_test.this, Test.class);
                     startActivity(intent);
                     finish();
-                } catch (Exception e) {
-                    //здесь кода не будет
+                }catch (Exception e){
                 }
-                //Обрабатываем нажатие кнопки "Назад" конец
             }
         });
-        //кнопка назад конец
+
     }
 
-
+    //METHOD CHECKANSWER
     private void checkAnswer() {
         answered = true;
         RadioButton rbSelected = findViewById(radioGroup.getCheckedRadioButtonId());
-        int answerNo = radioGroup.indexOfChild(rbSelected) + 1;
-        if (answerNo == currentQuestion.getCorrectAnsNo()) {
-            if (count < 7) {
+        int answerNo = radioGroup.indexOfChild (rbSelected) + 1;
+        if (answerNo == currentQuestion.getCorrectAnsNo()){
+            if (count < 4) {
                 count = count + 1;
             }
             score++;
-            tvScore.setText("Правильных ответов: " + score);
+            tvScore.setText ("Number od correct answers: "+ score);
         }
 
+        //TEKST NIEPRAWIDLOWEJ ODP GRAY
+        rb1.setTextColor(Color.GRAY);
+        rb2.setTextColor(Color.GRAY);
+        rb3.setTextColor(Color.GRAY);
 
-        rb1.setTextColor(Color.TRANSPARENT);
-        rb2.setTextColor(Color.TRANSPARENT);
-        rb3.setTextColor(Color.TRANSPARENT);
-        switch (currentQuestion.getCorrectAnsNo()) {
+        //PRZY PRAWIDLOWEJ ODPOWIEDZI TEKST PRAWIDLOWEJ ODP BLACK
+        switch (currentQuestion.getCorrectAnsNo()){
             case 1:
-                rb1.setTextColor(Color.BLACK);
+                rb1.setTextColor(getColor(R.color.green));
+                rb2.setTextColor(getColor(R.color.red));
+                rb3.setTextColor(getColor(R.color.red));
                 break;
             case 2:
-                rb2.setTextColor(Color.BLACK);
+                rb2.setTextColor(getColor(R.color.green));
+                rb1.setTextColor(getColor(R.color.red));
+                rb3.setTextColor(getColor(R.color.red));
                 break;
             case 3:
-                rb3.setTextColor(Color.BLACK);
+                rb3.setTextColor(getColor(R.color.green));
+                rb1.setTextColor(getColor(R.color.red));
+                rb2.setTextColor(getColor(R.color.red));
                 break;
         }
-        if (qCounter < totalQuestions) {
-            btnNext.setText("Следующий вопрос");
-        } else {
+
+        //BUTTON NEXT/ FINISH
+        if(qCounter < totalQuestions){
+            btnNext.setText("Next question→");
+        }else {
             btnNext.setText("Finish");
-            //
+
+
+
+
+            //BUTTTON NEXT
             btnNext.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    //Обрабатываем нажатие кнопки "Назад" начало
-                    try {
-                        Intent intent = new Intent(Level3_test.this, Fragment.class);
+                    try{
+                        Intent intent = new Intent (Level3_test.this, Fragment.class);
                         startActivity(intent);
                         finish();
-                    } catch (Exception e) {
-                        //здесь кода не будет
+                    }catch (Exception e){
                     }
-                    //Обрабатываем нажатие кнопки "Назад" конец
                 }
             });
-            //
         }
     }
 
-    //ТУТ ОГРОМНАЯ ВСТАВКА НАЧАЛО2//
+
+    //METHOD SHOW NEXT QUESTION
     private void showNextQuestion() {
 
         radioGroup.clearCheck();
@@ -165,47 +163,38 @@ public class Level3_test extends AppCompatActivity {
 
         if (qCounter < totalQuestions) {
             currentQuestion = questionList.get(qCounter);
-            tvQuestion.setText(currentQuestion.getQuestion());
+            textQuestion.setText(currentQuestion.getQuestion());
             rb1.setText(currentQuestion.getOption1());
             rb2.setText(currentQuestion.getOption2());
             rb3.setText(currentQuestion.getOption3());
 
             qCounter++;
-            btnNext.setText("Проверить ответ");
-            tvQuestionNo.setText("Вопрос: " + qCounter + "/" + totalQuestions);
+            btnNext.setText("Check the answer");
+            tvQuestionNo.setText("Question: " + qCounter+"/"+ totalQuestions);
             //tvQuestionNo.setText ("Question: " + qCounter+"/"+totalQuestions);
             answered = false;
 
-        } else {
+        }else{
             finish();
         }
     }
 
-    private void addQuestion() {
-        questionList.add(new QuestionModel("Согласно Роберту Кийосаки одним из важнейших уроков в его жизни было как раз таки научиться понимать различия между Активом и Пассивом. Даже если сейчас для вас это звучит заумно, вообще-то все довольно просто: Активы это какие-либо ресурсы, приносящие прибыль в ваш карман, пассивы – наоборот съедающие.", "A", "B", "C", 1));
-        questionList.add(new QuestionModel("B is correct", "A", "B", "C", 3));
-        questionList.add(new QuestionModel("C is correct", "A", "B", "C", 3));
-        questionList.add(new QuestionModel("A is correct", "A", "B", "C", 2));
-        questionList.add(new QuestionModel("B is correct", "A", "B", "C", 1));
-        questionList.add(new QuestionModel("A is correct", "A", "B", "C", 3));
-        questionList.add(new QuestionModel("B is correct", "A", "B", "C", 2));
+    //METHOD ADDQUESTION
+    private  void addQuestion(){
+        questionList.add (new QuestionModel( "What does word 'budgeting' mean? ", "Giving your budget to the bank ", "Creating new cash flows", "Plan of your income and expenses for a certain period", 3));
+        questionList.add (new QuestionModel( "What basic graphs do budget table have?", "Just expenses", "Number of your cash flows", "Income, expenses, unforeseen circumstances and savings", 3));
+        questionList.add (new QuestionModel( "What is formula of capital accumulation for 1 month?", "Income(1 month) - expenses(1 month) - unforeseen circumstances(1 month)", "Income(1 month) - expenses(1 month) + unforeseen circumstances(1 month)", "Income(1 month) + expenses(1 month) + unforeseen circumstances(1 month)", 1));
+        questionList.add (new QuestionModel( "What is formula of accumulation period?", "Product price/ income(1 month)", "Product price / capital accumulation(1 month)", "Income (1 month) - expenses(1 month)", 2));
     }
-    //ТУТ ОГРОМНАЯ ВСТАВКА Конец2//
 
-    //Системная кнопка "Назад" начало
+    //BUTTON BACK SYSTEM
     @Override
-    public void onBackPressed() {
-        //Обрабатываем нажатие кнопки "Назад" начало
-        try {
-            Intent intent = new Intent(Level3_test.this, Test.class);
+    public void onBackPressed (){
+        try{
+            Intent intent = new Intent (Level3_test.this, Test.class);
             startActivity(intent);
             finish();
-        } catch (Exception e) {
-            //здесь кода не будет
+        }catch (Exception e){
         }
-        //Обрабатываем нажатие кнопки "Назад" конец
-
-
     }
-//Системная кнопка "Назад" конец
 }

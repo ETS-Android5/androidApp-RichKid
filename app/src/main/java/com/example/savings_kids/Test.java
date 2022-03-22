@@ -14,12 +14,13 @@ public class Test extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_test);
 
-        //кнопка для перехода на первый тест начало
+
 
         ImageButton test1 = findViewById(R.id.Test1);
         ImageButton test2 = findViewById(R.id.Test2);
         ImageButton test3 = findViewById(R.id.Test3);
         ImageButton test4 = findViewById(R.id.Test4);
+        ImageButton back = findViewById(R.id.back);
         View.OnClickListener btn = new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -44,6 +45,11 @@ public class Test extends AppCompatActivity {
                         startActivity(inten);
                         finish();
                         break;
+                    case R.id.back:
+                        Intent intentt = new Intent(Test.this, MainActivity.class);
+                        startActivity(intentt);
+                        finish();
+                        break;
                 }
             }
         };
@@ -51,22 +57,18 @@ public class Test extends AppCompatActivity {
         test2.setOnClickListener(btn);
         test3.setOnClickListener(btn);
         test4.setOnClickListener(btn);
-        //кнопка для перехода на первый тест конец
+        back.setOnClickListener(btn);
+
     }
-    //Системная кнопка "Назад" начало
+
     @Override
     public void onBackPressed (){
-        //Обрабатываем нажатие кнопки "Назад" начало
+
         try{
             Intent intent = new Intent (Test.this, MainActivity.class);
             startActivity(intent);
             finish();
         }catch (Exception e){
-            //здесь кода не будет
         }
-        //Обрабатываем нажатие кнопки "Назад" конец
-
-
     }
-    //Системная кнопка "Назад" конец
 }

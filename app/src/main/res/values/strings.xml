@@ -1,16 +1,18 @@
 <resources>
-    <string name="app_name">Savings_kids+</string>
+    <string name="app_name">Rich Kid</string>
     <string name="selectedLanguage">English</string>
     <string name="back">Назад</string>
     <string name="level">ПРОВЕРИМСЯ: ТЕСТ </string>
     <string name="level1">TEST 1</string>
+    <string name="level2">TEST 2</string>
+    <string name="level3">TEST 3</string>
+    <string name="level4">TEST 4</string>
     <string name="score">Правильных ответов: </string>
 
     <string name="question1">Согласно Роберту Кийосаки одним из важнейших уроков в его жизни было как раз таки научиться понимать различия между Активом и Пассивом. Даже если сейчас для вас это звучит заумно, вообще-то все довольно просто: Активы это какие-либо ресурсы, приносящие прибыль в ваш карман, пассивы – наоборот съедающие.  </string>
     <string name="slovar1">When a person consciously or intuitively chooses a goal in life, a life task, he involuntarily gives himself an assessment. By what a person lives for, you can also judge his self-esteem-low or high.
 
 If a person lives to bring good to people, to ease their suffering, to give people joy, then he evaluates himself at the level of this humanity. He sets himself a goal worthy of a human being.</string>
-    <string name="l1">1. Почему  нельзя напечатать много денег</string>
     <string name="Text1.1">Lesson 1  \n</string>
     <string name="Text1.2">Why we can not print \na lot of money  \n</string>
     <string name="Text1.3">To you this, to me that \n</string>
