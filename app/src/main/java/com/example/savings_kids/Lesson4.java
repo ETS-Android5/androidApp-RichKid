@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
-public class Urok4 extends AppCompatActivity {
+public class Lesson4 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,7 +19,7 @@ public class Urok4 extends AppCompatActivity {
             public void onClick(View view) {
                 switch (view.getId()) {
                     case R.id.Photo_4_05:
-                        Intent i = new Intent(Urok4.this, Test.class);
+                        Intent i = new Intent(Lesson4.this, Test.class);
                         startActivity(i);
                         finish();
                         break;
@@ -34,7 +34,7 @@ public class Urok4 extends AppCompatActivity {
     public void onBackPressed (){
         //Обрабатываем нажатие кнопки "Назад" начало
         try{
-            Intent intent = new Intent (Urok4.this, MainActivity.class);
+            Intent intent = new Intent (Lesson4.this, MainActivity.class);
             startActivity(intent);
             finish();
         }catch (Exception e){

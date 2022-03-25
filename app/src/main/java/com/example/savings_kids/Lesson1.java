@@ -5,10 +5,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.ImageButton;
 import android.widget.ImageView;
 
-public class Urok1 extends AppCompatActivity {
+public class Lesson1 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,7 +20,7 @@ public class Urok1 extends AppCompatActivity {
             public void onClick(View view) {
                 switch (view.getId()) {
                     case R.id.Photo_1_05:
-                        Intent i = new Intent(Urok1.this, Urok2.class);
+                        Intent i = new Intent(Lesson1.this, Lesson2.class);
                         startActivity(i);
                         finish();
                         break;
@@ -36,7 +35,7 @@ public class Urok1 extends AppCompatActivity {
     public void onBackPressed (){
         //Обрабатываем нажатие кнопки "Назад" начало
         try{
-            Intent intent = new Intent (Urok1.this, MainActivity.class);
+            Intent intent = new Intent (Lesson1.this, MainActivity.class);
             startActivity(intent);
             finish();
         }catch (Exception e){

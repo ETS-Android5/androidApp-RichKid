@@ -1,20 +1,15 @@
 package com.example.savings_kids;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.res.Resources;
 import android.os.Bundle;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
-import com.google.android.material.bottomnavigation.BottomNavigationItemView;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity {
@@ -37,7 +32,6 @@ public class MainActivity extends AppCompatActivity {
         ImageButton two2 = findViewById(R.id.two2);
         ImageButton three3 = findViewById(R.id.three3);
         ImageButton four4 = findViewById(R.id.four4);
-
         ImageButton back = findViewById(R.id.back);
         ImageButton test = findViewById(R.id.test);
 
@@ -47,22 +41,22 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 switch (view.getId()) {
                     case R.id.one1:
-                        Intent inte = new Intent(MainActivity.this, Urok1.class);
+                        Intent inte = new Intent(MainActivity.this, Lesson1.class);
                         startActivity(inte);
                         finish();
                         break;
                     case R.id.two2:
-                        Intent inten = new Intent(MainActivity.this, Urok2.class);
+                        Intent inten = new Intent(MainActivity.this, Lesson2.class);
                         startActivity(inten);
                         finish();
                         break;
                     case R.id.three3:
-                        Intent intent = new Intent(MainActivity.this, Urok3.class);
+                        Intent intent = new Intent(MainActivity.this, Lesson3.class);
                         startActivity(intent);
                         finish();
                         break;
                     case R.id.four4:
-                        Intent intent1 = new Intent(MainActivity.this, Urok4.class);
+                        Intent intent1 = new Intent(MainActivity.this, Lesson4.class);
                         startActivity(intent1);
                         finish();
                         break;

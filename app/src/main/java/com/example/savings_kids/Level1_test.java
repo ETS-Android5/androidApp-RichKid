@@ -17,7 +17,8 @@ import java.util.List;
 
 //FIELDS
 public class  Level1_test extends AppCompatActivity {
-public int count =0;
+    public static int finalScore;
+    public int count =0;
 Array array = new Array();
 private TextView textQuestion, tvQuestionNo, tvScore;
 private RadioGroup radioGroup;
@@ -103,6 +104,7 @@ private List<QuestionModel> questionList;
             score++;
             tvScore.setText ("Number od correct answers: "+ score);
         }
+        finalScore = score;
 
         //TEKST NIEPRAWIDLOWEJ ODP GRAY
         rb1.setTextColor(Color.GRAY);

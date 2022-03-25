@@ -19,7 +19,6 @@ public class Test extends AppCompatActivity {
         ImageButton test1 = findViewById(R.id.Test1);
         ImageButton test2 = findViewById(R.id.Test2);
         ImageButton test3 = findViewById(R.id.Test3);
-        ImageButton test4 = findViewById(R.id.Test4);
         ImageButton back = findViewById(R.id.back);
         View.OnClickListener btn = new View.OnClickListener() {
             @Override
@@ -31,18 +30,13 @@ public class Test extends AppCompatActivity {
                         finish();
                         break;
                     case R.id.Test2:
-                        Intent in = new Intent(Test.this, Level2_test.class);
+                        Intent in = new Intent(Test.this, Level3_test.class);
                         startActivity(in);
                         finish();
                         break;
                     case R.id.Test3:
                         Intent inte = new Intent(Test.this, Level3_test.class);
                         startActivity(inte);
-                        finish();
-                        break;
-                    case R.id.Test4:
-                        Intent inten = new Intent(Test.this, Level4_test.class);
-                        startActivity(inten);
                         finish();
                         break;
                     case R.id.back:
@@ -53,10 +47,11 @@ public class Test extends AppCompatActivity {
                 }
             }
         };
+
+
         test1.setOnClickListener(btn);
         test2.setOnClickListener(btn);
         test3.setOnClickListener(btn);
-        test4.setOnClickListener(btn);
         back.setOnClickListener(btn);
 
     }

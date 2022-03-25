@@ -38,6 +38,7 @@
                 android:id="@+id/Test1"
                 android:layout_width="match_parent"
                 android:layout_height="170dp"
+                android:layout_marginTop="20dp"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
                 android:background="@null"
@@ -49,7 +50,7 @@
                 android:id="@+id/Test2"
                 android:layout_width="match_parent"
                 android:layout_height="170dp"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="20dp"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
                 android:background="@null"
@@ -61,7 +62,7 @@
                 android:id="@+id/Test3"
                 android:layout_width="match_parent"
                 android:layout_height="170dp"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="20dp"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
                 android:scaleType="centerInside"
@@ -69,17 +70,8 @@
                 android:orientation="vertical"
                 app:srcCompat="@drawable/custom_test3" />
 
-            <ImageButton
-                android:id="@+id/Test4"
-                android:layout_width="match_parent"
-                android:layout_height="170dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
-                android:background="@null"
-                android:orientation="vertical"
-                android:scaleType="centerInside"
-                app:srcCompat="@drawable/custom_test4" />
+
+
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

@@ -64,16 +64,16 @@ Lets try to answer it: if the tax was the same for everyone (by the way, such a 
     <string name="Text3.1"> Lesson 3\n</string>
     <string name="Text3.2"> Budgeting or how to save up for a laptop\n</string>
     <string name="Text3.3"> The magic of mathematics, emotional shopping and a ban on chips\n</string>
-    <string name="Text3.4"> The word "budgeting” not the nicest word in the world: it's hard to pronounce and more like a banking term for people in suits.
+    <string name="Text3.4"> The word "budgeting” not the nicest word in the world: its hard to pronounce and more like a banking term for people in suits.
 But with the help of this term you will be able to save up for your own brand-new laptop (maybe even this year).
-In simple words, budgeting comes from the word budget, that is, the plan of your income and expenses for a certain period. Hmm, already confused? Let's try another way.
+In simple words, budgeting comes from the word budget, that is, the plan of your income and expenses for a certain period. Hmm, already confused? Lets try another way.
 \n</string>
     <string name="Text3.5"> Lets imagine that every month your parents give you pocket money in the amount of 1000 rubles. This is what we will call your income. At the same time, 800 rubles are spent on ice cream and soda per month. Plus bus rides, a couple of chewing gum and sweets – without change, the whole 1000 will come out.  And an unexpected trip to your grandmother or best friend? In general, you need to save a lot of money or you can say goodbye to your laptop. That is why they came up with such a thing as budgeting – drawing up a financial plan for a short time (let it be a month or a year) for easier control over their money.\n</string>
     <string name="Text3.6"> 1. Where to start?\n\n
 And we need to start with a properly set goal. In our case, as far as we remember, the choice fell on a brand new laptop. Before solving important tasks, lets take a sheet of paper and a pen and answer a couple of questions for ourselves:
 \n\n• Do you need a laptop for educational or gaming purposes? Its no secret that laptops for toys should have higher technical requirements, such as an excellent graphics card or a convenient gaming mouse, for example. And the more expensive the purchase, the longer it will take to save.
 \n• Do I have enough second-hand options or do I want a brand new one?
-\n• Can this subject help me earn money in the future? After all, if this is "another toy", it's better to invest money in a graphics tablet or ask parents to open their own bank deposit (read about this in the next lesson)
+\n• Can this subject help me earn money in the future? After all, if this is "another toy", its better to invest money in a graphics tablet or ask parents to open their own bank deposit (read about this in the next lesson)
 \n</string>
     <string name="Text3.7"> 2. When the goal is selected, you must do budgeting.\n\n
 On your old computer, we will find the Excel program  and draw the field of income, expenses, unforeseen circumstances and savings as shown below in the picture. At the bottom, put down the dates (for example, months or years if you want). Knowing yourself, you will be able to put down approximate numbers in each column. Next, with the help of a little magic and simple mathematical formulas, we will deduce the amount of accumulation (how much we can accumulate in a month) as income minus expenses minus unforeseen circumstances. By the way, we recommend saving about 5% of your income for unforeseen circumstances.
@@ -85,23 +85,20 @@ On your old computer, we will find the Excel program  and draw the field of inco
 \n</string>
     <string name="Text3.11"> 3. Be proud of yourself\n</string>
     <string name="Text3.12"> And the last point remained – to glorify yourself for the work done!\nMaybe to someone these tips seem too simple and obvious. Well, believe me, even adults are sometimes unable to follow these rules. Can you accept challenge?\n</string>
-    <string name="Text3.13"> Click here to find out why the bank is good and why is it bad?\n</string>
+    <string name="Text3.13"> Click here to find out why bank might be good and why might be bad for you?\n</string>
 
 
-    <string name="Text4.1"> Урок 4\n</string>
-    <string name="Text4.2"> Почему банк это хорошо и почему плохо?\n</string>
-    <string name="Text4.3"> Высокие проценты, ненужные прихоти и вкусные кексики\n</string>
-    <string name="Text4.4"> О банке слышал, наверное, каждый человек на земном шаре. Там мы отдаём свои сбережения на хранение, берём кредит под проценты или оформляем карты. Банковская система только кажется тяжёлой и непонятной. На самом же деле в основном банки были придуманы для 2-ух вещей:\n\n
-•	Одни люди, у которых были свободные деньги, отдавали их в банк под проценты. Таким образом, вложенные деньги зарабатывали владельцу еще больше денег. Такая операция называется банковским вкладом.\n
-•	Но чтобы банку было откуда брать денежки и добавлять к вашим сбережениям, он должен был их зарабатывать. Это решалось с помощью кредитов под проценты, которые банк выдавал другим людям.
+    <string name="Text4.1"> Lesson 4\n</string>
+    <string name="Text4.2"> Why bank might be good and why might be bad for you ?\n</string>
+    <string name="Text4.3"> High interest rates, unnecessary things and delicious cupcakes\n</string>
+    <string name="Text4.4"> Probably every person on the globe has heard about the bank. There we deposit our savings or take out loan . The banking system only seemsdifficult and unclear. We imagine people in expensive suits always calling somewhere and pacing back and forth. But in fact, mostly banks were invented for 2 things:\n\n
+• Some people who had free money gave it to the bank.  Banks take money from people for storage and pay them a certain amount for it (interest/ %). So these invested money earned the owner even more money. Such an operation is called a bank deposit (we mentioned this in the last lesson)\n
+• In order to add money for your bank deposits, bank need to get new money from somewere. This was solved with the help of interest-bearing loans that the bank gave to other people. It turned out to be that kind of a money cycle.
 \n</string>
-    <string name="Text4.5"> Каждый из рассмотренных случаев имеет свои плюсы или минусы.\n</string>
-    <string name="Text4.6"> Кредит\n</string>
-    <string name="Text4.61"> Банковский вклад\n</string>
-    <string name="Text4.7"> В случае же банковского вклада всё происходит точно также, только наоборот.\n</string>
-    <string name="Text4.8"> Ну не здорово ли понимать как устроена финансовая система?!\n</string>
-    <string name="Text4.9"> Кликнем здесь, чтобы узнать, что такое инвестиции и как деньги сделают вам деньги.\n</string>
-
-
+    <string name="Text4.5"> Each of the considered cases has its pros or cons.\n</string>
+    <string name="Text4.6"> Loans\n</string>
+    <string name="Text4.61"> Bank deposit\n</string>
+    <string name="Text4.7"> In the case of a bank deposit, everything happens exactly the same, only the opposite.\n</string>
+    <string name="Text4.8"> Well, is not it great to understand how the financial system works?!\n</string>
     <string name="todo">TODO</string>
 </resources>

@@ -7,28 +7,27 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
-public class Urok2 extends AppCompatActivity {
+public class Lesson3 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_urok2);
+        setContentView(R.layout.activity_urok3);
 
-        ImageView btn_nextUrok = (ImageView) findViewById(R.id.Photo_2_05);
+        ImageView btn_nextUrok = (ImageView) findViewById(R.id.Photo_3_05);
         View.OnClickListener btn = new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 switch (view.getId()) {
-                    case R.id.Photo_2_05:
-                        Intent i = new Intent(Urok2.this, Urok3.class);
+                    case R.id.Photo_3_05:
+                        Intent i = new Intent(Lesson3.this, Lesson4.class);
                         startActivity(i);
                         finish();
                         break;
                 }
             }
         };
-        btn_nextUrok.setOnClickListener(btn);
-
+    btn_nextUrok.setOnClickListener(btn);
 
     }
     //Системная кнопка "Назад" начало
@@ -36,7 +35,7 @@ public class Urok2 extends AppCompatActivity {
     public void onBackPressed (){
         //Обрабатываем нажатие кнопки "Назад" начало
         try{
-            Intent intent = new Intent (Urok2.this, MainActivity.class);
+            Intent intent = new Intent (Lesson3.this, MainActivity.class);
             startActivity(intent);
             finish();
         }catch (Exception e){

@@ -16,8 +16,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 //FIELDS
-public class  Level3_test extends AppCompatActivity {
+public class Level3_test extends AppCompatActivity {
     public int count =0;
+    public static int finalScore;
     Array array = new Array();
     private TextView textQuestion, tvQuestionNo, tvScore;
     private RadioGroup radioGroup;
@@ -37,9 +38,12 @@ public class  Level3_test extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.universal_test);
 
+
         //TEXT
         TextView text_levels = findViewById(R.id.text_levels);
         text_levels.setText((R.string.level3));
+
+
 
         //INIT OF ELEMENTS
         questionList = new ArrayList<>();
@@ -94,12 +98,13 @@ public class  Level3_test extends AppCompatActivity {
         RadioButton rbSelected = findViewById(radioGroup.getCheckedRadioButtonId());
         int answerNo = radioGroup.indexOfChild (rbSelected) + 1;
         if (answerNo == currentQuestion.getCorrectAnsNo()){
-            if (count < 5) {
+            if (count < 7) {
                 count = count + 1;
             }
             score++;
             tvScore.setText ("Number od correct answers: "+ score);
         }
+        finalScore = score;
 
         //TEKST NIEPRAWIDLOWEJ ODP GRAY
         rb1.setTextColor(Color.GRAY);

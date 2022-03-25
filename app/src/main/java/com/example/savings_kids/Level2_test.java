@@ -14,10 +14,12 @@ import android.widget.TextView;
 import android.widget.Toast;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.logging.Level;
 
 //FIELDS
 public class  Level2_test extends AppCompatActivity {
     public int count =0;
+    public static int finalScore;
     Array array = new Array();
     private TextView textQuestion, tvQuestionNo, tvScore;
     private RadioGroup radioGroup;
@@ -103,6 +105,7 @@ public class  Level2_test extends AppCompatActivity {
             score++;
             tvScore.setText ("Number od correct answers: "+ score);
         }
+        finalScore = score;
 
         //TEKST NIEPRAWIDLOWEJ ODP GRAY
         rb1.setTextColor(Color.GRAY);

@@ -10,7 +10,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:context=".Urok1">
+        tools:context=".Lesson1">
 
         <TextView
             android:id="@+id/Text2.1"
