@@ -76,14 +76,13 @@
         <ImageView
             android:id="@+id/Photo1"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="250dp"
             android:contentDescription="@string/todo"
             android:scaleType="centerInside"
-            android:layout_marginTop="13dp"
             app:layout_constraintEnd_toEndOf="@id/guideline5"
             app:layout_constraintStart_toStartOf="@id/guideline2"
             app:layout_constraintTop_toBottomOf="@+id/Text2.5"
-            app:srcCompat="@drawable/btn_slovar_01_01" />
+            app:srcCompat="@drawable/u2_1" />
 
         <TextView
             android:id="@+id/Text2.6"
@@ -100,14 +99,14 @@
         <ImageView
             android:id="@+id/Photo1.1"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="250dp"
             android:contentDescription="@string/todo"
             android:scaleType="centerInside"
             android:layout_marginTop="13dp"
             app:layout_constraintEnd_toEndOf="@id/guideline5"
             app:layout_constraintStart_toStartOf="@id/guideline2"
             app:layout_constraintTop_toBottomOf="@+id/Text2.6"
-            app:srcCompat="@drawable/btn_slovar_01_01" />
+            app:srcCompat="@drawable/u2_2" />
 
 
         <TextView
@@ -126,14 +125,14 @@
         <ImageView
             android:id="@+id/Photo2"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="250dp"
             android:contentDescription="@string/todo"
             android:scaleType="centerInside"
             android:layout_marginTop="13dp"
             app:layout_constraintEnd_toEndOf="@id/guideline5"
             app:layout_constraintStart_toStartOf="@id/guideline2"
             app:layout_constraintTop_toBottomOf="@+id/Text2.7"
-            app:srcCompat="@drawable/btn_slovar_01_01" />
+            app:srcCompat="@drawable/u2_3" />
 
         <TextView
             android:id="@+id/Text2.8"
@@ -194,7 +193,7 @@
         <ImageView
             android:id="@+id/Photo4"
             android:layout_width="0dp"
-            android:layout_height="0dp"
+            android:layout_height="250dp"
             android:contentDescription="@string/todo"
             android:scaleType="centerInside"
             android:layout_marginTop="13dp"
@@ -202,7 +201,7 @@
             app:layout_constraintEnd_toEndOf="@id/guideline5"
             app:layout_constraintStart_toStartOf="@id/guideline2"
             app:layout_constraintTop_toBottomOf="@+id/Text2.11"
-            app:srcCompat="@drawable/btn_slovar_01_01" />
+            app:srcCompat="@drawable/u2_4" />
 
         <TextView
             android:id="@+id/Text2.12"
@@ -241,7 +240,7 @@
             app:layout_constraintEnd_toEndOf="@id/guideline5"
             app:layout_constraintStart_toStartOf="@id/guideline2"
             app:layout_constraintTop_toBottomOf="@+id/Text2.13"
-            app:srcCompat="@drawable/btn_slovar_01_01" />
+            app:srcCompat="@drawable/custom_btn_next" />
 
         <LinearLayout
             android:layout_width="match_parent"

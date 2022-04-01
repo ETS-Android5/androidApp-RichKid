@@ -14,12 +14,12 @@ public class Lesson1 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_urok1);
 
-        ImageView btn_nextUrok = findViewById(R.id.Photo_1_05);
+        ImageView btn_nextUrok = findViewById(R.id.Photo4);
         View.OnClickListener btn = new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 switch (view.getId()) {
-                    case R.id.Photo_1_05:
+                    case R.id.Photo4:
                         Intent i = new Intent(Lesson1.this, Lesson2.class);
                         startActivity(i);
                         finish();
