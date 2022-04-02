@@ -30,11 +30,16 @@ public class Fragment extends AppCompatActivity {
                         startActivity(inte);
                         finish();
                         break;
+                    case R.id.btnNextTest:
+                        Intent inteq = new Intent(Fragment.this, Test.class);
+                        startActivity(inteq);
+                        finish();
+                        break;
                 }
             }
         };
         back.setOnClickListener(btn);
-
+        btnNextTest.setOnClickListener(btn);
         //STATIC FINAL SCORE
         try {
             tvScore.setText("Number od correct answers: " + Level1_test.finalScore);
@@ -64,13 +69,13 @@ public class Fragment extends AppCompatActivity {
         //Result depend on finalScore for Level2
         switch (Level3_test.finalScore){
             case 1:
-                dependResult.setText("We advise you to re-read Lesson number 1 again. In the future, it will be easier for you to understand how money works.");
+                dependResult.setText("We advise you to re-read Lesson number 2 again. In the future, it will be easier for you to understand how money works.");
                 break;
             case 2:
-                dependResult.setText("It is better to re-read Lesson number 1 again. In the future, it will be easier for you to understand how money works.");
+                dependResult.setText("It is better to re-read Lesson number 2 again. In the future, it will be easier for you to understand how money works.");
                 break;
             case 3:
-                dependResult.setText("You are well-versed on the topic of Lesson number 1. Keep it up!");
+                dependResult.setText("You are well-versed on the topic of Lesson number 2. Keep it up!");
                 break;
             case 4:
                 dependResult.setText("Well done! Brilliant result!");
@@ -83,13 +88,13 @@ public class Fragment extends AppCompatActivity {
         //Result depend on finalScore for Level3
         switch (Level3_test.finalScore){
             case 1:
-                dependResult.setText("We advise you to re-read Lesson number 1 again. In the future, it will be easier for you to understand how money works.");
+                dependResult.setText("We advise you to re-read Lesson number 3 again. In the future, it will be easier for you to understand how money works.");
                 break;
             case 2:
-                dependResult.setText("It is better to re-read Lesson number 1 again. In the future, it will be easier for you to understand how money works.");
+                dependResult.setText("It is better to re-read Lesson number 3 again. In the future, it will be easier for you to understand how money works.");
                 break;
             case 3:
-                dependResult.setText("You are well-versed on the topic of Lesson number 1. Keep it up!");
+                dependResult.setText("You are well-versed on the topic of Lesson number 3. Keep it up!");
                 break;
             case 4:
                 dependResult.setText("Well done! Brilliant result!");

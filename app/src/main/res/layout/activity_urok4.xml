@@ -10,8 +10,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:context=".Lesson1"
-        >
+        tools:context=".Lesson1">
 
         <TextView
             android:id="@+id/Text4.1"
@@ -45,7 +44,7 @@
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="@id/guideline5"
             app:layout_constraintStart_toStartOf="@id/guideline2"
-            app:layout_constraintTop_toBottomOf="@+id/guideline4" />
+            app:layout_constraintTop_toBottomOf="@+id/Text4.2" />
 
 
         <TextView
@@ -99,7 +98,7 @@
             app:layout_constraintEnd_toEndOf="@id/guideline40"
             app:layout_constraintStart_toStartOf="@id/guideline39"
             app:layout_constraintTop_toBottomOf="@+id/Text4.6"
-            app:srcCompat="@drawable/photo_4_01" />
+            app:srcCompat="@drawable/u4_1" />
 
         <TextView
             android:id="@+id/Text4.61"
@@ -134,11 +133,11 @@
             android:layout_height="0dp"
             android:contentDescription="@string/todo"
             android:scaleType="centerInside"
-            app:layout_constraintDimensionRatio="1:2.1"
+            app:layout_constraintDimensionRatio="1:0.7"
             app:layout_constraintEnd_toEndOf="@id/guideline40"
             app:layout_constraintStart_toStartOf="@id/guideline39"
             app:layout_constraintTop_toBottomOf="@+id/Text4.7"
-            app:srcCompat="@drawable/photo_4_02_01" />
+            app:srcCompat="@drawable/u4_2" />
 
         <TextView
             android:id="@+id/Text4.8"
@@ -178,7 +177,7 @@
             app:layout_constraintEnd_toEndOf="@id/guideline5"
             app:layout_constraintStart_toStartOf="@id/guideline2"
             app:layout_constraintTop_toBottomOf="@+id/Text4.9"
-            app:srcCompat="@drawable/btn_slovar_01_01" />
+            app:srcCompat="@drawable/custom_btn_next" />
 
         <LinearLayout
             android:layout_width="match_parent"
